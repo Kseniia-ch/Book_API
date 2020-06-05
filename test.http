@@ -1,0 +1,61 @@
+
+# POST http://localhost:5000/api/auth/authenticate
+# Content-Type: application/json
+
+# {
+#     "Login": "User",
+#     "Password": "User"
+# }
+
+# GET http://localhost:5000/api/booksordered/
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ItCU0LzQuNGC0YDQuNC5IiwiVXNlcklkIjoiMSIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTU5MTM4NzQ2NSwiZXhwIjoxNTkxNDQxNDY1LCJpYXQiOjE1OTEzODc0NjV9.IBGJycA2XKvNHc__YVQJAyMD6b42ebNxbvFMJn6z66s
+ 
+#GET http://localhost:5000/api/booksordered/
+
+# PUT http://localhost:5000/api/booksordered/1
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ItCU0LzQuNGC0YDQuNC5IiwiVXNlcklkIjoiMiIsInJvbGUiOiJ1c2VyIiwibmJmIjoxNTkxMzg5NTA4LCJleHAiOjE1OTE0NDM1MDgsImlhdCI6MTU5MTM4OTUwOH0.Domf4x4Z9UMoDvBFW2Hb71HznaJUah26aMKlYwwA2rs
+# Content-Type: application/json
+
+# { 
+#     "BookForSaleId": 1,
+#     "Sold": true
+# }
+
+# Post http://localhost:5000/api/booksordered/
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ItCU0LzQuNGC0YDQuNC5IiwiVXNlcklkIjoiMiIsInJvbGUiOiJ1c2VyIiwibmJmIjoxNTkxMzkxMDQ1LCJleHAiOjE1OTE0NDUwNDUsImlhdCI6MTU5MTM5MTA0NX0.wfWuYVwAZkZ8a3BQCXnM2wWdDhf6fmOuOjOxGO0Euko
+# Content-Type: application/json
+
+# { 
+#     "BookForSaleId": 4,
+#     "Sold": true
+# }
+
+#GET http://localhost:5000/api/booksforsale/
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ItCU0LzQuNGC0YDQuNC5IiwiVXNlcklkIjoiMSIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTU5MTM4NzQ2NSwiZXhwIjoxNTkxNDQxNDY1LCJpYXQiOjE1OTEzODc0NjV9.IBGJycA2XKvNHc__YVQJAyMD6b42ebNxbvFMJn6z66s
+ 
+
+# POST http://localhost:5000/api/booksforsale
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ItCU0LzQuNGC0YDQuNC5IiwiVXNlcklkIjoiMSIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTU5MTM4NzQ2NSwiZXhwIjoxNTkxNDQxNDY1LCJpYXQiOjE1OTEzODc0NjV9.IBGJycA2XKvNHc__YVQJAyMD6b42ebNxbvFMJn6z66s
+# Content-Type: application/json
+
+# {
+#     "BookId": 1,
+#     "Description": "Laptop"
+#}
+
+# GET http://localhost:5000/api/books/
+
+#Delete http://localhost:5000/api/books/2
+
+
+# POST http://localhost:5000/api/genres
+# Content-Type: application/json
+#  Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ItCU0LzQuNGC0YDQuNC5IiwiVXNlcklkIjoiMiIsInJvbGUiOiJVc2VyIiwibmJmIjoxNTkxMzkyNDY1LCJleHAiOjE1OTE0NDY0NjUsImlhdCI6MTU5MTM5MjQ2NX0.nMpGsVinK_8SQqyeuXDpcmKT6mLlFOWt-Sg9ulNCxsQ
+
+# {
+#     "Name": "Poetry"
+# }
+
+
+# GET http://localhost:5000/api/users
+
